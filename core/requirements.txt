@@ -1,5 +1,6 @@
 asgiref==3.7.2
 astroid==2.15.8
+attrs==23.1.0
 black==23.11.0
 click==8.1.7
 colorama==0.4.6
@@ -8,9 +9,13 @@ django-admin-black==1.0.8
 django-js-asset==2.1.0
 django-mptt==0.15.0
 djangorestframework==3.14.0
+drf-spectacular==0.26.5
 flake8==6.1.0
 flake8-django==1.4
+inflection==0.5.1
 iniconfig==2.0.0
+jsonschema==4.20.0
+jsonschema-specifications==2023.11.1
 lazy-object-proxy==1.9.0
 mccabe==0.7.0
 mypy-extensions==1.0.0
@@ -18,11 +23,16 @@ packaging==23.2
 pathspec==0.11.2
 platformdirs==4.0.0
 pluggy==1.3.0
+psycopg2==2.9.9
 pycodestyle==2.11.1
 pyflakes==3.1.0
 pytest==7.4.3
 python-dotenv==1.0.0
 pytz==2023.3.post1
+PyYAML==6.0.1
+referencing==0.31.0
+rpds-py==0.13.1
 sqlparse==0.4.4
 tzdata==2023.3
+uritemplate==4.1.1
 wrapt==1.16.0
