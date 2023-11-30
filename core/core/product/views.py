@@ -42,3 +42,5 @@ class ProductView(viewsets.ViewSet):
     def list(self, request):
         serializer = ProductSerializer(self.queryset, many=True)
         return Response(serializer.data)
+    
+
